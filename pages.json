@@ -1,0 +1,652 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页/快心情",
+				"navigationStyle": "custom",
+				"app-plus": { // App特定样式
+					"popGesture": "none",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": { // App特定样式
+					"popGesture": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/user/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": { // App特定样式
+					"popGesture": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/user/login/checkIden",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": { // App特定样式
+					"popGesture": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/speed/speed",
+			"style": {
+				"navigationBarTitleText": "快手速",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": { // App特定样式
+					"popGesture": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/fastlife/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": { // App特定样式
+					"popGesture": "none"
+				}
+			}
+		}, {
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": { // App特定样式
+					"popGesture": "none"
+				}
+			}
+		},
+
+		{
+			"path": "pages/index/fruit/fruit",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": { // App特定样式
+					"popGesture": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/speed/identity/identity",
+			"style": {
+				"navigationBarTitleText": "认证情况",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": { // App特定样式
+					"popGesture": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/speed/datanalise/datanalise",
+			"style": {
+				"navigationBarTitleText": "数据分析",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": { // App特定样式
+					"popGesture": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/skinmall/index",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": { // App特定样式
+					"popGesture": "none"
+				}
+			}
+		}, {
+			"path": "pages/fastlife/test_index/test_index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}
+	],
+	"subPackages": [{
+			"root": "package1",
+			"pages": [{
+					"path": "pages/index/top/top",
+					"style": {
+						"navigationBarTitleText": "搜索",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/index/top/option",
+					"style": {
+						"navigationBarTitleText": "管理设置",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/index/circles/circles",
+					"style": {
+						"navigationBarTitleText": "心情圈",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/index/circles/space",
+					"style": {
+						"navigationBarTitleText": "个人空间",
+						// "enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/index/circles/asking",
+					"style": {
+						"navigationBarTitleText": "咨询",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}
+			]
+		},
+		{
+			"root": "package2",
+			"pages": [{
+					"path": "pages/mine/quickCoinSystem/balanceChangeDetails",
+					"style": {
+						"navigationBarTitleText": "余额变动明细",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, {
+					"path": "pages/mine/quickCoinSystem/goldCoinExchange",
+					"style": {
+						"navigationBarTitleText": "金币兑换",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, {
+					"path": "pages/mine/quickCoinSystem/payBind",
+					"style": {
+						"navigationBarTitleText": "支付绑定",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+
+				}, {
+					"path": "pages/mine/quickCoinSystem/realNameAuthentication",
+					"style": {
+						"navigationBarTitleText": "实名认证",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, {
+					"path": "pages/mine/setting/messagePushSwitch",
+					"style": {
+						"navigationBarTitleText": "消息推送开关",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, {
+					"path": "pages/mine/setting/info",
+					"style": {
+						"navigationBarTitleText": "信息",
+						"enablePullDownRefresh": false,
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/mine/accountManagement/index",
+					"style": {
+						"navigationBarTitleText": "账号管理",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+
+				}, {
+					"path": "pages/mine/accountManagement/avatar",
+					"style": {
+						"navigationBarTitleText": "个人头像",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+
+				},
+				{
+					"path": "pages/mine/accountManagement/nickname",
+					"style": {
+						"navigationBarTitleText": "修改昵称",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/mine/accountManagement/sexual",
+					"style": {
+						"navigationBarTitleText": "修改性别",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/mine/accountManagement/other",
+					"style": {
+						"navigationBarTitleText": "其他信息",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, {
+					"path": "pages/mine/accountManagement/updatePassword",
+					"style": {
+						"navigationBarTitleText": "修改密码",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, {
+					"path": "pages/mine/accountManagement/code",
+					"style": {
+						"navigationBarTitleText": "填写验证码",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, {
+					"path": "pages/mine/accountManagement/bindTel",
+					"style": {
+						"navigationBarTitleText": "绑定手机",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, {
+					"path": "pages/mine/accountManagement/bindEmail",
+					"style": {
+						"navigationBarTitleText": "绑定邮箱",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, {
+					"path": "pages/mine/accountManagement/bindThirdAccount",
+					"style": {
+						"navigationBarTitleText": "绑定第三方账号",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, {
+					"path": "pages/mine/accountManagement/updateVip",
+					"style": {
+						"navigationBarTitleText": "会员",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/mine/setting/index",
+					"style": {
+						"navigationBarTitleText": "设置",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/mine/quickCoinSystem/index",
+					"style": {
+						"navigationBarTitleText": "快币系统",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/mine/serviceCenter/index",
+					"style": {
+						"navigationBarTitleText": "客服中心",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+
+				}, {
+					"path": "pages/mine/serviceCenter/feedback",
+					"style": {
+						"navigationBarTitleText": "您的反馈",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, {
+					"path": "pages/mine/serviceCenter/commonProblem",
+					"style": {
+						"navigationBarTitleText": "常见问题",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+
+				},
+				{
+					"path": "pages/mine/verifyManagement/index",
+					"style": {
+						"navigationBarTitleText": "认证管理",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+
+				},
+				{
+					"path": "pages/mine/messageManagement/index",
+					"style": {
+						"navigationBarTitleText": "消息管理",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, {
+					"path": "pages/mine/quickCoinSystem/goldToquick",
+					"style": {
+						"navigationBarTitleText": "金币兑换快币",
+						"enablePullDownRefresh": false,
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+
+				}, {
+					"path": "pages/mine/report/report",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+
+				}
+			]
+		},
+		{
+			"root": "package3",
+			"pages": [{
+					"path": "pages/speed/ranking/ranking",
+					"style": {
+						"navigationBarTitleText": "排行榜",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/speed/mode/easy",
+					"style": {
+						"navigationBarTitleText": "游戏大厅",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/speed/mode/atTime",
+					"style": {
+						"navigationBarTitleText": "即时挑战",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						// "disableScroll": true,
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/speed/mode/begin",
+					"style": {
+						"navigationBarTitleText": "开始游戏",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": {
+							"bounce": "none",
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/fastlife/ssClock",
+					"style": {
+						"navigationBarTitleText": "手速闹钟",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/fastlife/ssRedpack",
+					"style": {
+						"navigationBarTitleText": "手速红包",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, {
+					"path": "pages/fastlife/ad",
+					"style": {
+						"navigationBarTitleText": "广告捞金",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}
+			]
+		},
+		{
+			"root": "package4",
+			"pages": [{
+					"path": "pages/user/authorization/weChat",
+					"style": {
+						"navigationBarTitleText": "微信授权",
+						"enablePullDownRefresh": false,
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/user/authorization/newUser/newUser",
+					"style": {
+						"navigationBarTitleText": "选择登录账号",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/user/list/list",
+					"style": {
+						"navigationBarTitleText": "隐私政策和协议",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				},
+				{
+					"path": "pages/user/authorization/weibo",
+					"style": {
+						"navigationBarTitleText": "微博授权",
+						"enablePullDownRefresh": false,
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}, //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+				{
+					"path": "pages/user/authorization/authorization",
+					"style": {
+						"navigationBarTitleText": "QQ授权",
+						"enablePullDownRefresh": false,
+						"app-plus": { // App特定样式
+							"popGesture": "none"
+						}
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"lazyCodeLoading": "requiredComponents",
+	"tabBar": {
+		// 需要时HexColor，设置成red 无法识别，下方颜色设置同理
+		"color": "#ffffff",
+		"backerStyle": "#94d08f",
+		"selectedColor": "#555555",
+		"backgroundColor": "#94d08f",
+		"midButton": {
+			"width": "65px",
+			"height": "65px",
+			"iconPath": "/package1/static/assets/other/add.png"
+		},
+		"list": [{
+				"name": "快心情",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"name": "快手速",
+				"pagePath": "pages/speed/speed"
+			},
+			{
+				"name": "快测试",
+				"pagePath": "pages/fastlife/index"
+			},
+			{
+				"name": "我的",
+				"pagePath": "pages/mine/index"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
