@@ -154,7 +154,8 @@
                     "hdpi" : "/package2/static/assets/mine/start.png",
                     "xhdpi" : "/package2/static/assets/mine/start.png",
                     "xxhdpi" : "/package2/static/assets/mine/start.png"
-                }
+                },
+                "useOriginalMsgbox" : false
             }
         },
         "uniStatistics" : {
